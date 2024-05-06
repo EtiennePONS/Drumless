@@ -47,6 +47,125 @@ const music_list = [
     artist: "Genesis",
     music: "assets/Audio/Genesis_Jesus_He_Knows_Me(Playback_Personnalise).mp3",
   },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/fd/d9/c8_cef4e6_lg130.jpg",
+    name: "Eye of the Tiger",
+    artist: "Survivor",
+    music: "assets/Audio/Survivor_Eye_of_the_Tiger(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/16_9693e4_lg130.jpg",
+    name: "Vertigo",
+    artist: "U2",
+    music: "assets/Audio/U2_Vertigo(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/c5_4d8cc9_lg130.jpg",
+    name: "New Year's Day",
+    artist: "U2",
+    music: "assets/Audio/U2_New_Year_s_Day(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/c5_4d8cc9_lg130.jpg",
+    name: "Personal Jesus",
+    artist: "Depeche Mode",
+    music:
+      "assets/Audio/Depeche_Mode_Personal_Jesus(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/86/d9_bb5e6a_lg130.jpg",
+    name: "In the Air Tonight",
+    artist: "Phil Collins",
+    music:
+      "assets/Audio/Phil_Collins_In_the_Air_Tonight(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/7e_e82970_lg130.jpg",
+    name: "Urgent",
+    artist: "Foreigner",
+    music: "assets/Audio/Foreigner_Urgent(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d3/fd_61a2aa_lg130.jpg",
+    name: "A Forest",
+    artist: "The Cure",
+    music: "assets/Audio/The_Cure_A_Forest(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d1/ee_cd8b8f_lg130.jpg",
+    name: "Just What I Needed",
+    artist: "The Cars",
+    music:
+      "assets/Audio/The_Cars_Just_What_I_Needed(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/df/bf_d76af0_lg130.jpg",
+    name: "Need You Tonight",
+    artist: "INXS",
+    music: "assets/Audio/INXS_Need_You_Tonight(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/7c/ae_5c07b0_lg130.jpg",
+    name: "Mama",
+    artist: "Genesis",
+    music: "assets/Audio/Genesis_Mama(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/3f_68176c_lg130.jpg",
+    name: "I Was Made 4 Lovin'U",
+    artist: "Kiss",
+    music:
+      "assets/Audio/Kiss_I_Was_Made_For_Lovin_You(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg",
+    name: "Dancing in the Dark",
+    artist: "Bruce Springsteen",
+    music:
+      "assets/Audio/Bruce_Springsteen_Dancing_in_the_Dark(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg",
+    name: "Born in the USA",
+    artist: "Bruce Springsteen",
+    music:
+      "assets/Audio/Bruce_Springsteen_Born_in_the_USA(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg",
+    name: "Born in the USA",
+    artist: "Bruce Springsteen",
+    music:
+      "assets/Audio/Bruce_Springsteen_Born_in_the_USA(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/b3_b2a662_lg130.jpg",
+    name: "Born in the USA",
+    artist: "Bruce Springsteen",
+    music:
+      "assets/Audio/Bruce_Springsteen_Born_in_the_USA(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/de/89_aef7b3_lg130.jpg",
+    name: "It's a Long Way",
+    artist: "AC/DC",
+    music:
+      "assets/Audio/AC_DC_It_s_a_Long_Way_to_the_Top_(If_You_Wanna_Rock_n_Roll)(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/8c/f5/1e_440371_lg130.jpg",
+    name: "Born to Be Wild",
+    artist: "Steppenwolf",
+    music:
+      "assets/Audio/Steppenwolf_Born_to_Be_Wild(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/74/ff_277646_lg130.jpg",
+    name: "Gimme All Your Lovin",
+    artist: "ZZ Top",
+    music:
+      "assets/Audio/ZZ_Top_Gimme_All_Your_Lovin(Playback_Personnalise).mp3",
+  },
 ];
 
 loadTrack(track_index);
@@ -63,7 +182,7 @@ function loadTrack(track_index) {
   track_artist.textContent = music_list[track_index].artist;
 
   now_playing.textContent =
-    "Playing music" + (track_index + 1) + " of " + music_list.length;
+    "Playing music " + (track_index + 1) + " of " + music_list.length;
   updateTimer = setInterval(setUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
 }
