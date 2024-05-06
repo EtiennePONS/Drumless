@@ -295,11 +295,11 @@ function play50(event) {
     "Audio/Coldplay_A_Sky_Full_of_Stars(Playback_Personnalise).mp3"
   ).play();
 }
-// function setViewportHeight() {
-//   let vh = window.innerHeight * 0.01;
-//   document.documentElement.style.setProperty("--vh", `${vh}px`);
-// }
-// setViewportHeight();
-// window.addEventListener("resize", () => {
-//   setTimeout(setViewportHeight, 100);
-// });
+function setViewportHeight() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+}
+setViewportHeight();
+window.addEventListener("resize", () => {
+  setTimeout(setViewportHeight, 100);
+});

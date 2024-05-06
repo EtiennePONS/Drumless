@@ -3,356 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Document</title>
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <div class="drumkit">
-      <button class="pad" id="1">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/dc/f3_850447_lg130.jpg"
-          alt="Eyes Without a Face - Billy Idol"
-        />Eyes Without a Face - Billy Idol
-      </button>
-      <button class="pad" id="2">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e3/9d_e1482d_lg130.jpg"
-          alt="In The Army Now - Status Quo"
-        />In The Army Now - Status Quo
-      </button>
-      <button class="pad" id="3">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/76/a8_2afa74_lg130.jpg"
-          alt="Don't You (Forget About Me) - Simple Minds"
-        />Don't You (Forget About Me) - Simple Minds
-      </button>
-      <button class="pad" id="4">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e5/b9_2788f8_lg130.jpg"
-          alt="Jesus He Knows Me - Genesis"
-        />Jesus He Knows Me - Genesis
-      </button>
-      <button class="pad" id="5">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/fd/d9/c8_cef4e6_lg130.jpg"
-          alt="Eye of the Tiger - Survivor"
-        />Eye of the Tiger - Survivor
-      </button>
-      <button class="pad" id="6">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d2/16_9693e4_lg130.jpg"
-          alt="Vertigo - U2"
-        />Vertigo - U2
-      </button>
-      <button class="pad" id="7">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d2/c5_4d8cc9_lg130.jpg"
-          alt="New Year's Day - U2"
-        />
-        New Year's Day - U2
-      </button>
-      <button class="pad" id="8">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d8/7b_cca6af_lg130.jpg"
-          alt="Personal Jesus - Depeche Mode"
-        />
-        Personal Jesus - Depeche Mode
-      </button>
-      <button class="pad" id="9">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/86/d9_bb5e6a_lg130.jpg"
-          alt="In the Air Tonight - Phil Collins"
-        />
-        In the Air Tonight - Phil Collins
-      </button>
-      <button class="pad" id="10">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e0/7e_e82970_lg130.jpg"
-          alt="Urgent - Foreigner"
-        />
-        Urgent - Foreigner
-      </button>
-      <button class="pad" id="11">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d3/fd_61a2aa_lg130.jpg"
-          alt="A Forest - The Cure"
-        />
-        A Forest - The Cure
-      </button>
-      <button class="pad" id="12">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d1/ee_cd8b8f_lg130.jpg"
-          alt="Just What I Needed - The Cars"
-        />
-        Just What I Needed - The Cars
-      </button>
-      <button class="pad" id="13">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/df/bf_d76af0_lg130.jpg"
-          alt="Need You Tonight - INXS"
-        />
-        Need You Tonight - INXS
-      </button>
-      <button class="pad" id="14">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/7c/ae_5c07b0_lg130.jpg"
-          alt="Mama - Genesis"
-        />
-        Mama - Genesis
-      </button>
-      <button class="pad" id="15">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e0/3f_68176c_lg130.jpg"
-          alt="I Was Made For Lovin' You - Kiss"
-        />
-        I Was Made For Lovin' You - Kiss
-      </button>
-      <button class="pad" id="16">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d2/b3_b2a662_lg130.jpg"
-          alt="Born in the USA - Bruce Springsteen"
-        />
-        Born in the USA - Bruce Springsteen
-      </button>
-      <button class="pad" id="17">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/de/89_aef7b3_lg130.jpg"
-          alt="It's a Long Way to the Top (If You Wanna Rock 'n' Roll) - AC/DC"
-        />
-        It's a Long Way to the Top (If You Wanna Rock 'n' Roll) - AC/DC
-      </button>
-      <button class="pad" id="18">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/74/ff_277646_lg130.jpg"
-          alt="Gimme All Your Lovin' - ZZ Top"
-        />
-        Gimme All Your Lovin' - ZZ Top
-      </button>
-      <button class="pad" id="19">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/7c/d5_d46276_lg130.jpg"
-          alt="Money for Nothing (single edit) - Dire Straits"
-        />
-        Money for Nothing (single edit) - Dire Straits
-      </button>
-      <button class="pad" id="20">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d4/bf_888dc4_lg130.jpg"
-          alt="Walking on the Moon - The Police"
-        />
-        Walking on the Moon - The Police
-      </button>
-      <button class="pad" id="21">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/df/c8_f3268b_lg130.jpg"
-          alt="La Grange - ZZ Top"
-        />
-        La Grange - ZZ Top
-      </button>
-      <button class="pad" id="22">
-        <img
-          src="https://cdnaws.recis.io/i/img/01/a1/da/8c_d1d1c7_lg130.jpg"
-          alt="Paranoid - Black Sabbath"
-        />
-        Paranoid - Black Sabbath
-      </button>
-      <button class="pad" id="23">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e2/cc_26808c_lg130.jpg"
-          alt="Who Can It Be Now - Men at Work"
-        />
-        Who Can It Be Now - Men at Work
-      </button>
-      <button class="pad" id="24">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d1/56_ad0b6a_lg130.jpg"
-          alt="In Between Days - The Cure"
-        />
-        In Between Days - The Cure
-      </button>
-      <button class="pad" id="25">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e6/be_38eba7_lg130.jpg"
-          alt="Talk - Coldplay"
-        />
-        Talk - Coldplay
-      </button>
-      <button class="pad" id="26">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/76/86_fa76fc_lg130.jpg"
-          alt="Lost! - Coldplay"
-        />
-        Lost! - Coldplay
-      </button>
-      <button class="pad" id="27">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d3/b1_fe256c_lg130.jpg"
-          alt="Charlie Brown - Coldplay"
-        />
-        Charlie Brown - Coldplay
-      </button>
-      <button class="pad" id="28">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d4/61_8bfed0_lg130.jpg"
-          alt="The Scientist - Coldplay"
-        />
-        The Scientist - Coldplay
-      </button>
-      <button class="pad" id="29">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/98/d4_6f8679_lg130.jpg"
-          alt="Viva La Vida - Coldplay"
-        />
-        Viva La Vida - Coldplay
-      </button>
-      <button class="pad" id="30">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e0/42_a3cc9d_lg130.jpg"
-          alt="Fix You - Coldplay"
-        />
-        Fix You - Coldplay
-      </button>
-      <button class="pad" id="31">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e1/f7_704571_lg130.jpg"
-          alt="The Hardest Part - Coldplay"
-        />
-        The Hardest Part - Coldplay
-      </button>
-      <button class="pad" id="32">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/df/8b_142936_lg130.jpg"
-          alt="Yellow - Coldplay"
-        />
-        Yellow - Coldplay
-      </button>
-      <button class="pad" id="33">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/e5/5e/24_3a04e9_lg130.jpg"
-          alt="My Universe - Coldplay & BTS"
-        />
-        My Universe - Coldplay & BTS
-      </button>
-      <button class="pad" id="34">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/fa/b1_89e46e_lg130.jpg"
-          alt="God Put a Smile Upon Your Face - Coldplay"
-        />
-        God Put a Smile Upon Your Face - Coldplay
-      </button>
-      <button class="pad" id="35">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/de/c3_a94b9e_lg130.jpg"
-          alt="In My Place - Coldplay"
-        />
-        In My Place - Coldplay
-      </button>
-      <button class="pad" id="36">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e1/ed_6d80e8_lg130.jpg"
-          alt="Paradise - Coldplay"
-        />
-        Paradise - Coldplay
-      </button>
-      <button class="pad" id="37">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d5/4a_bb0be9_lg130.jpg"
-          alt="Speed of Sound - Coldplay"
-        />
-        Speed of Sound - Coldplay
-      </button>
-      <button class="pad" id="38">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/f1/af_810b0b_lg130.jpg"
-          alt="Trouble - Coldplay"
-        />
-        Trouble - Coldplay
-      </button>
-      <button class="pad" id="39">
-        <img
-          src="https://cdn.recis.io/i/img/00/52/e0/e2_b69f94_lg130.jpg"
-          alt="Adventure of a Lifetime - Coldplay"
-        />
-        Adventure of a Lifetime - Coldplay
-      </button>
-      <button class="pad" id="40">
-        <img
-          src="https://cdn.recis.io/i/img/00/52/e6/5f_e6f34b_lg130.jpg"
-          alt="Politik - Coldplay"
-        />
-        Politik - Coldplay
-      </button>
-      <button class="pad" id="41">
-        <img
-          src="https://cdn.recis.io/i/img/00/52/d9/99_c673b4_lg130.jpg"
-          alt="Clocks - Coldplay"
-        />
-        Clocks - Coldplay
-      </button>
-      <button class="pad" id="42">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d2/64_b8d159_lg130.jpg"
-          alt="Every Teardrop Is a Waterfall - Coldplay"
-        />
-        Every Teardrop Is a Waterfall - Coldplay
-      </button>
-      <button class="pad" id="43">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d2/12_58be51_lg130.jpg"
-          alt="Magic - Coldplay"
-        />
-        Magic - Coldplay
-      </button>
-      <button class="pad" id="44">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e0/e2_b69f94_lg130.jpg"
-          alt="Hymn for the Weekend - Coldplay & Beyoncé"
-        />
-        Hymn for the Weekend - Coldplay & Beyoncé
-      </button>
-      <button class="pad" id="45">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/d7/f0_848778_lg130.jpg"
-          alt="Higher Power - Coldplay"
-        />
-        Higher Power - Coldplay
-      </button>
-      <button class="pad" id="46">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/81/80_3cf2aa_lg130.jpg"
-          alt="Arabesque - Coldplay & Stromae"
-        />
-        Arabesque - Coldplay & Stromae
-      </button>
-      <button class="pad" id="47">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/ed/c1_7a735f_lg130.jpg"
-          alt="Violet Hill - Coldplay"
-        />
-        Violet Hill - Coldplay
-      </button>
-      <button class="pad" id="48">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg"
-          alt="Dancing in the Dark - Bruce Springsteen"
-        />
-        Dancing in the Dark - Bruce Springsteen
-      </button>
-      <button class="pad" id="49">
-        <img
-          src="https://cdnaws.recis.io/i/img/01/8c/f5/1e_440371_lg130.jpg"
-          alt="Born to Be Wild - Steppenwolf"
-        />
-        Born to Be Wild - Steppenwolf
-      </button>
-      <button class="pad" id="50">
-        <img
-          src="https://cdnaws.recis.io/i/img/00/52/e0/d4_dda8d4_lg130.jpg"
-          alt="A Sky Full of Stars - Coldplay"
-        />
-        A Sky Full of Stars - Coldplay
-      </button>
+    <div class="player">
+      <div class="wrapper">
+        <div class="details">
+          <div class="now-playing">PLAYING x OF y</div>
+          <div class="track-art"></div>
+          <div class="track-name">Track Name</div>
+          <div class="track-artist">Track Artist</div>
+        </div>
+        <div class="slider_container">
+          <div class="current-time">00:00</div>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="0"
+            class="seek_slider"
+            onchange="seekTo()"
+          />
+          <div class="total-duration">00:00</div>
+        </div>
+        <div class="slider_container">
+          <i class="fa fa-volume-down"></i>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="99"
+            class="volume_slider"
+            onchange="setVolume()"
+          />
+          <i class="fa fa-volume-up"></i>
+        </div>
+        <div class="buttons">
+          <div class="random-track" onclick="randomTrack()">
+            <i class="fas fa-random fa-2x" title="random"></i>
+          </div>
+          <div class="prev-track" onclick="prevTrack()">
+            <i class="fa fa-step-backward fa-2x"></i>
+          </div>
+          <div class="playpause-track" onclick="playpauseTrack()">
+            <i class="fa fa-play-circle fa-5x"></i>
+          </div>
+          <div class="next-track" onclick="nextTrack()">
+            <i class="fa fa-step-forward fa-2x"></i>
+          </div>
+          <div class="repeat-track" onclick="repeatTrack()">
+            <i class="fa fa-repeat fa-2x" title="repeat"></i>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="app.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
