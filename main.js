@@ -34,6 +34,19 @@ const music_list = [
     artist: "Status Quo",
     music: "assets/Audio/Status_Quo_In_The_Army_Now(Playback_Personnalise).mp3",
   },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/76/a8_2afa74_lg130.jpg",
+    name: "Don't You",
+    artist: "Simple Minds",
+    music:
+      "assets/Audio/Simple_Minds_Don_t_You_(Forget_About_Me)(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e5/b9_2788f8_lg130.jpg",
+    name: "Jesus He Knows Me",
+    artist: "Genesis",
+    music: "assets/Audio/Genesis_Jesus_He_Knows_Me(Playback_Personnalise).mp3",
+  },
 ];
 
 loadTrack(track_index);
