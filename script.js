@@ -125,20 +125,6 @@ const music_list = [
       "assets/Audio/Bruce_Springsteen_Dancing_in_the_Dark(Playback_Personnalise).mp3",
   },
   {
-    src: "https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg",
-    name: "Born in the USA",
-    artist: "Bruce Springsteen",
-    music:
-      "assets/Audio/Bruce_Springsteen_Born_in_the_USA(Playback_Personnalise).mp3",
-  },
-  {
-    src: "https://cdnaws.recis.io/i/img/00/52/88/e5_3c5a48_lg130.jpg",
-    name: "Born in the USA",
-    artist: "Bruce Springsteen",
-    music:
-      "assets/Audio/Bruce_Springsteen_Born_in_the_USA(Playback_Personnalise).mp3",
-  },
-  {
     src: "https://cdnaws.recis.io/i/img/00/52/d2/b3_b2a662_lg130.jpg",
     name: "Born in the USA",
     artist: "Bruce Springsteen",
@@ -165,6 +151,194 @@ const music_list = [
     artist: "ZZ Top",
     music:
       "assets/Audio/ZZ_Top_Gimme_All_Your_Lovin(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/7c/d5_d46276_lg130.jpg",
+    name: "Money for Nothing",
+    artist: "Dire Straits",
+    music:
+      "assets/Audio/Dire_Straits_Money_for_Nothing_(single_edit)(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d4/bf_888dc4_lg130.jpg",
+    name: "Walking on the Moon",
+    artist: "The Police",
+    music:
+      "assets/Audio/The_Police_Walking_on_the_Moon(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/df/c8_f3268b_lg130.jpg",
+    name: "La Grange",
+    artist: "ZZ Top",
+    music: "assets/Audio/ZZ_Top_La_Grange(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/a1/da/8c_d1d1c7_lg130.jpg",
+    name: "Paranoid",
+    artist: "Black Sabbath",
+    music: "assets/Audio/Black_Sabbath_Paranoid(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e2/cc_26808c_lg130.jpg",
+    name: "Who Can It Be Now",
+    artist: "Men at Work",
+    music:
+      "assets/Audio/Men_at_Work_Who_Can_It_Be_Now(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d1/56_ad0b6a_lg130.jpg",
+    name: "In Between Days",
+    artist: "The Cure",
+    music: "assets/Audio/The_Cure_In_Between_Days(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e6/be_38eba7_lg130.jpg",
+    name: "Talk",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Talk(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/76/86_fa76fc_lg130.jpg",
+    name: "Lost!",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Lost(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d3/b1_fe256c_lg130.jpg",
+    name: "Charlie Brown",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Charlie_Brown(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/d4_dda8d4_lg130.jpg",
+    name: "A Sky Full of Stars",
+    artist: "Coldplay",
+    music:
+      "assets/Audio/Coldplay_A_Sky_Full_of_Stars(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d4/61_8bfed0_lg130.jpg",
+    name: "The Scientist",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_The_Scientist(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/98/d4_6f8679_lg130.jpg",
+    name: "Viva La Vida",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Viva_La_Vida(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/42_a3cc9d_lg130.jpg",
+    name: "Fix You",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Fix_You(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e1/f7_704571_lg130.jpg",
+    name: "The Hardest Part",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_The_Hardest_Part(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/df/8b_142936_lg130.jpg",
+    name: "Yellow",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Yellow(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/e5/5e/24_3a04e9_lg130.jpg",
+    name: "My Universe",
+    artist: "Coldplay & BTS",
+    music: "assets/Audio/Coldplay_My_Universe(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/fa/b1_89e46e_lg130.jpg",
+    name: "God Put a Smile",
+    artist: "Coldplay",
+    music:
+      "assets/Audio/Coldplay_God_Put_a_Smile_Upon_Your_Face(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/de/c3_a94b9e_lg130.jpg",
+    name: "In My Place",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_In_My_Place(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e1/ed_6d80e8_lg130.jpg",
+    name: "Paradise",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Paradise(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d5/4a_bb0be9_lg130.jpg",
+    name: "Speed of Sound",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Speed_of_Sound(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/f1/af_810b0b_lg130.jpg",
+    name: "Trouble",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Trouble(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/e2_b69f94_lg130.jpg",
+    name: "Adventure of ...",
+    artist: "Coldplay",
+    music:
+      "assets/Audio/Coldplay_Adventure_of_a_Lifetime(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e6/5f_e6f34b_lg130.jpg",
+    name: "Politik",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Politik(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d9/99_c673b4_lg130.jpg",
+    name: "Clocks",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Clocks(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/64_b8d159_lg130.jpg",
+    name: "Every Teardrop Is ...",
+    artist: "Coldplay",
+    music:
+      "assets/Audio/Coldplay_Every_Teardrop_Is_a_Waterfall(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d2/12_58be51_lg130.jpg",
+    name: "Magic",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Magic(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/e2_b69f94_lg130.jpg",
+    name: "Hymn for the Weekend",
+    artist: "Coldplay",
+    music:
+      "assets/Audio/Coldplay_Hymn_for_the_Weekend(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d7/f0_848778_lg130.jpg",
+    name: "Higher Power",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Higher_Power(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/81/80_3cf2aa_lg130.jpg",
+    name: "Arabesque",
+    artist: "Coldplay & Stromae",
+    music: "assets/Audio/Coldplay_Arabesque(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/ed/c1_7a735f_lg130.jpg",
+    name: "Violet Hill",
+    artist: "Coldplay",
+    music: "assets/Audio/Coldplay_Violet_Hill(Playback_Personnalise).mp3",
   },
 ];
 
