@@ -12,11 +12,10 @@ body {
   font-weight: bold;
   background: url(/assets/images/fond-vague-egaliseur-colore_23-2148434242.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
 }
 .player {
-  position: relative;
   width: 400px;
   height: 100px;
   display: flex;
@@ -25,13 +24,13 @@ body {
   justify-content: center;
 }
 .wrapper {
-  /* width: 500px; */
+  position: relative;
   border: 2px solid #fff;
   padding: 30px;
   border-radius: 30px;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.588);
+  background: rgba(255, 255, 255, 0.1);
 }
 .details {
   display: flex;
