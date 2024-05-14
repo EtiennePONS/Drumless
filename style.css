@@ -43,19 +43,22 @@ body {
   -moz-box-shadow: 0px 6px 5px #ccc;
   -webkit-box-shadow: 0px 6px 5px #ccc;
   box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
 }
-/*.now-playing {
+.now-playing {
   font-size: 1rem;
-  color: #fff;
+  /* color: #fff; */
 }
 .track-name {
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 1.8rem;
+  /* color: #fff; */
 }
 .track-artist {
   margin-top: 5px;
-  font-size: 1.5rem;
-  color: #fff;
+  font-size: 1.1rem;
+  /* color: #fff; */
 }
 .buttons {
   display: flex;
@@ -64,15 +67,24 @@ body {
   margin-bottom: 30px;
 }
 .active {
-  color: #000;
+  color: black;
 }
 .repeat-track,
 .next-track,
 .playpause-track,
 .prev-track,
 .random-track {
-  padding: 25px;
-  color: #fff;
+  padding: 16px;
+  /* color: #fff; */
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.repeat-track:hover,
+.next-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.random-track:hover {
+  opacity: 1;
 }
 .slider_container {
   display: flex;
@@ -96,9 +108,9 @@ body {
   appearance: none;
   width: 15px;
   height: 15px;
-  background: #fff;
+  background: white;
   border: 2px solid #3774ff;
-  cursor: grab;
+  cursor: pointer;
   border-radius: 100%;
 }
 .seek_slider:hover,
@@ -114,12 +126,12 @@ body {
 .current-time,
 .total-duration {
   padding: 10px;
-  color: #fff;
+  /* color: #fff; */
 }
 i.fa-volume-down,
 i.fa-volume-up {
   padding: 10px;
-}
+} /*
 i,
 i.fa-play-circle,
 i.fa-pause-circle,
