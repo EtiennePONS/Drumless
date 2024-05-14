@@ -25,6 +25,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   backdrop-filter: blur(30px);
+  /* background: rgba(0, 0, 0, 0.588); */
 }
 .details {
   display: flex;
@@ -36,13 +37,13 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  -moz-box-shadow: 0px 6px 5px #ccc;
+  /* -moz-box-shadow: 0px 6px 5px #ccc;
   -webkit-box-shadow: 0px 6px 5px #ccc;
-  box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc; */
   -moz-border-radius: 190px;
   -webkit-border-radius: 190px;
   border-radius: 190px;
