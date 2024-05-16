@@ -1,28 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("/assets/images/images.png");
+  background: url("/images/images.png");
   background-size: cover;
   background-position: center;
 }
-/* .player {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 3px solid rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  padding: 20px;
-  color: #fff;
-  transition: height 0.6s ease;
-} */
