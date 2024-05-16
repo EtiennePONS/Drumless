@@ -37,7 +37,7 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  border: 3px solid #fff;
+  border: 3px solid whitesmoke;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -70,8 +70,9 @@ body {
 .prev-track,
 .random-track {
   padding: 12px;
-  color: #fff;
+  color: white;
 }
+
 .slider_container {
   display: flex;
   justify-content: center;
@@ -128,7 +129,7 @@ p {
   color: #fff;
 }
 .randomActive {
-  color: #fff;
+  color: yellow;
 }
 .rotate {
   animation: rotation 8s infinite linear;
