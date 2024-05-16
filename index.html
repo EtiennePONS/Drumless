@@ -14,49 +14,64 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="search-box">
-        <i class="bx bxs-map"></i>
-        <input type="text" placeholder="Entrez votre localité" />
-        <button class="bx bx-search-alt"></button>
-      </div>
-      <p class="city-hide">city hide</p>
-      <div class="weather-box">
-        <div class="box">
-          <div class="info-weather">
-            <div class="weather">
-              <img src="" alt="" />
-              <p class="temperature"><span></span></p>
-
-              <p class="description"></p>
-            </div>
+    BLA-BLA
+    <div class="player">
+      <div class="wrapper">
+        <div class="details">
+          <div class="now-playing">PLAYING x OF y</div>
+          <div class="track-art"></div>
+          <div class="track-name">Track Name</div>
+          <div class="track-artist">Track Artist</div>
+        </div>
+        <div class="slider_container">
+          <div class="current-time">00:00</div>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="0"
+            class="seek_slider"
+            onchange="seekTo()"
+          />
+          <div class="total-duration">00:00</div>
+        </div>
+        <div class="slider_container">
+          <i class="fa fa-volume-down"></i>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="99"
+            class="volume_slider"
+            onchange="setVolume()"
+          />
+          <i class="fa fa-volume-up"></i>
+        </div>
+        <div class="buttons">
+          <div class="random-track" onclick="randomTrack()">
+            <i class="fas fa-random fa-2x" title="random"></i>
+          </div>
+          <div class="prev-track" onclick="prevTrack()">
+            <i class="fa fa-step-backward fa-2x"></i>
+          </div>
+          <div class="playpause-track" onclick="playpauseTrack()">
+            <i class="fa fa-play-circle fa-5x"></i>
+          </div>
+          <div class="next-track" onclick="nextTrack()">
+            <i class="fa fa-step-forward fa-2x"></i>
+          </div>
+          <div class="repeat-track" onclick="repeatTrack()">
+            <i class="fa fa-repeat fa-2x" title="repeat"></i>
           </div>
         </div>
-      </div>
-      <div class="weather-details">
-        <div class="humidity">
-          <i class="bx bx-water"></i>
-          <div class="text">
-            <div class="info-humidity">
-              <span></span>
-            </div>
-            <p>Humidité</p>
-          </div>
-        </div>
-        <div class="wind">
-          <i class="bx bx-wind"></i>
-          <div class="text">
-            <div class="info-wind">
-              <span></span>
-            </div>
-            <p>Vent</p>
-          </div>
-        </div>
-      </div>
-      <div class="not-found">
-        <div class="box">
-          <img src="images/404.png" />
-          <p>Oops! non référencée</p>
+        <div id="wave">
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
         </div>
       </div>
     </div>
