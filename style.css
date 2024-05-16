@@ -1,11 +1,11 @@
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: url("/assets/images/fond-vague-egaliseur-colore_23-2148434242.jpg");
-  background-size: cover;
-  background-position: center;
+  min-height: 100vh; */
+  background-image: url("/assets/images/fond-vague-egaliseur-colore_23-2148434242.jpg");
+  /* background-size: cover;
+  background-position: center; */
 }
 /* .player {
   position: relative;
