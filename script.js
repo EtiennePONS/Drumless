@@ -327,6 +327,102 @@ const music_list = [
     artist: "Coldplay",
     music: "Audio/Coldplay_Violet_Hill(Playback_Personnalise).mp3",
   },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e1/8f_731c7b_lg130.jpg",
+    name: "Machistador",
+    artist: "Matthieu Chedid",
+    music: "Audio/Matthieu_Chedid_(_M_)_Machistador(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/8b/2c_9ffc5f_lg130.jpg",
+    name: "Symph of Destruction",
+    artist: "Megadeth",
+    music: "Audio/Megadeth_Symphony_of_Destruction(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/91/0a/59_267c89_lg130.jpg",
+    name: "I Will Always Love You",
+    artist: "Whitney Houston",
+    music: "Audio/Bodyguard_I_Will_Always_Love_You(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/fa/46_b269c8_lg130.jpg",
+    name: "Do You, Saint-Tropez",
+    artist: "Geneviève Grad",
+    music:
+      "Audio/Genevieve_Grad_Do_You_Do_You_Do_You_Saint_Tropez(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/d8/db_df8be3_lg130.jpg",
+    name: "Disco Inferno",
+    artist: "The Trammps",
+    music: "Audio/The_Trammps_Disco_Inferno(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/8d/ae_a9ecad_lg130.jpg",
+    name: "Blood on Dance Floor",
+    artist: "Michael Jackson",
+    music:
+      "Audio/Michael_Jackson_Blood_on_the_Dance_Floor(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/de/6d_68c2cc_lg130.jpg",
+    name: "Pretty Young Thing",
+    artist: "Michael Jackson",
+    music:
+      "Audio/Michael_Jackson_P_Y_T_(Pretty_Young_Thing)(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/72/53/27_6a38f1_lg130.jpg",
+    name: "Billie Jean",
+    artist: "Michael Jackson",
+    music: "Audio/Michael_Jackson_Billie_Jean(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/75/14_7e3b3d_lg130.jpg",
+    name: "Boogie Wonderland",
+    artist: "Earth, Wind & Fire",
+    music:
+      "Audio/Earth_Wind_&_Fire_Boogie_Wonderland(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/72/53/40_93ce72_lg130.jpg",
+    name: "September",
+    artist: "Earth, Wind & Fire",
+    music: "Audio/Earth_Wind_&_Fire_September(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/98/ce_1bca16_lg130.jpg",
+    name: "Bad Girls",
+    artist: "Donna Summer",
+    music: "Audio/Donna_Summer_Bad_Girls(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/90/0f/cd_908888_lg130.jpg",
+    name: "Think",
+    artist: "Aretha Franklin",
+    music: "Audio/The_Blues_Brothers_Think(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/72/52/8f_60dd3f_lg130.jpg",
+    name: "Uptown Funk",
+    artist: "Bruno Mars",
+    music: "Audio/Bruno_Mars_Uptown_Funk(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/de/a9_5ade90_lg130.jpg",
+    name: "Blame It on the Boogie",
+    artist: "The Jackson 5",
+    music:
+      "Audio/The_Jackson_5_Blame_It_on_the_Boogie(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/85/1e_f4116a_lg130.jpg",
+    name: "I Got You (I Feel Good)",
+    artist: "James Brown",
+    music:
+      "Audio/James_Brown_I_Got_You_(I_Feel_Good)(Playback_Personnalise).mp3",
+  },
 ];
 
 loadTrack(track_index);
