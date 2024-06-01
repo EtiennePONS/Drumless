@@ -423,6 +423,36 @@ const music_list = [
     music:
       "Audio/James_Brown_I_Got_You_(I_Feel_Good)(Playback_Personnalise).mp3",
   },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e2/92_ef7b35_lg130.jpg",
+    name: "Funkytown",
+    artist: "Lipps, Inc.",
+    music: "Audio/Lipps_Inc_Funkytown(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/da/d6_7ffdf8_lg130.jpg",
+    name: "Beat It",
+    artist: "Michael Jackson",
+    music: "Audio/Michael_Jackson_Beat_It(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/01/96/f1/b7_4ae948_lg130.jpg",
+    name: "Thriller",
+    artist: "Michael Jackson",
+    music: "Audio/Michael_Jackson_Thriller(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/79/5e_cd0e6d_lg130.jpg",
+    name: "On The Radio",
+    artist: "Donna Summer",
+    music: "Audio/Donna_Summer_On_The_Radio(Playback_Personnalise).mp3",
+  },
+  {
+    src: "https://cdnaws.recis.io/i/img/00/52/e0/f1_544536_lg130.jpg",
+    name: "Groove Is in the Heart",
+    artist: "Deee-Lite",
+    music: "Audio/Deee_Lite_Groove_Is_in_the_Heart(Playback_Personnalise).mp3",
+  },
 ];
 
 loadTrack(track_index);
